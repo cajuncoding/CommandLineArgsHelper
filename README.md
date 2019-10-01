@@ -3,7 +3,7 @@ A parsing class to dramatically simplify working with command line arguments in 
 
 It supports a variety of parameter syntaxes, and seamlessly parses all of them into a simplified Dictionary interface of key value string pairs.
 
-The Code has been adapted from the original source located at: 
+_The Code has been adapted from the original source located at:_
 https://www.codeproject.com/Articles/3111/C-NET-Command-Line-Arguments-Parser
 
 
