@@ -26,14 +26,19 @@ namespace CommandLineArgsHelper
         //Ensure that the underlying data is read only for thread safety
         public IReadOnlyDictionary<string, string> Parameters { get; }
 
-        // Constructor
+        #region Constructors
+        public CommandLineArgsHelper()
+            : this(Environment.GetCommandLineArgs())
+        {}
+
         public CommandLineArgsHelper(string[] argsArray)
         {
-            var paramsDictionary = parseArgumentsHelper(argsArray);
+            var paramsDictionary = ParseArgumentsHelper(argsArray);
             Parameters = new ReadOnlyDictionary<string, string>(paramsDictionary);
         }
+        #endregion
 
-        private Dictionary<string, string> parseArgumentsHelper(string[] argsArray)
+        private Dictionary<string, string> ParseArgumentsHelper(string[] argsArray)
         {
             //Always return a valid/initialized Dictionary
             var paramsDictionary = new Dictionary<string, string>();
