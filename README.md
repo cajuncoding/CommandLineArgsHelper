@@ -3,9 +3,16 @@ A parsing class to dramatically simplify working with command line arguments in 
 
 It supports a variety of parameter syntaxes, and seamlessly parses all of them into a simplified Dictionary interface of key value string pairs.
 
+### Why another Library?
+Many of the existing libraries are based on the constrained paradigm that arguments should be bound to strongly typed objects. 
+However, for many implementations, this is a limiting approach that means you have to re-compile the app to support new parameters; 
+not supporting dynamic behavior, and possibly making the model that params bind to force you to have strange naming conventions in your code.
+
+Instead, this provides a loosely coupled approach that is more generic and allows you to support dynamic behavior and strongly typed behavior (by simply putting keys into property getter's if you like).
+
+### Original Code forked from:
 _The Code has been adapted from the original source located at:_
 https://www.codeproject.com/Articles/3111/C-NET-Command-Line-Arguments-Parser
-
 
 But it has been updated and simplified with:
 - Updated with new C# syntax
