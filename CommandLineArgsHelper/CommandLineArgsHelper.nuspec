@@ -12,6 +12,6 @@
     <description>$description$</description>
     <releaseNotes>Initial nuget release.</releaseNotes>
     <copyright>Copyright 2019</copyright>
-    <tags>command line commandline arg param console</tags>
+    <tags>command line commandline arg arguments param parameters console consoleapp</tags>
   </metadata>
 </package>

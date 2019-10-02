@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text.RegularExpressions;
 
-namespace CommandLineArgsHelper
+namespace CommandLineArgsHelpers
 {
     #region Helper Class for parsing and processing Command Line Arguments
 
@@ -11,9 +11,12 @@ namespace CommandLineArgsHelper
     /// BBernard
     /// Command Line Arguments Parser Class
     /// NOTE: Code updated and simplified by BBernard
-    ///         - Updated with new C# syntax
-    ///         - Improved thread safety
-    ///         - Eliminated code duplication
+    ///     - Updated with new C# syntax
+    ///     - Enhanced class wrapper (e.g.exposed read only dictionary for enumeration)
+    ///     - More robust parsing for wider array of parameter syntaxes
+    ///     - Support for both key/value parameters as well as simple boolean flags(param is defined or not)
+    ///     - Improved thread safety
+    ///     - Eliminated code duplication
     /// NOTE: Adapted from original source located at: 
     ///       https://www.codeproject.com/Articles/3111/C-NET-Command-Line-Arguments-Parser
     /// </summary>
@@ -122,7 +125,6 @@ namespace CommandLineArgsHelper
         public string this[string name] => Parameters.GetValueOrDefault(name);
     }
     #endregion
-
 
     #region Custom Extension Helpers
 

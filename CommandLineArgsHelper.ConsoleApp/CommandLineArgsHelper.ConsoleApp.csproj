@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CommandLineArgsHelper.Program</StartupObject>
+    <StartupObject>CommandLineArgsHelperConsoleApp.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

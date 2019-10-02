@@ -1,6 +1,7 @@
-﻿using System;
+﻿using CommandLineArgsHelpers;
+using System;
 
-namespace CommandLineArgsHelper
+namespace CommandLineArgsHelperConsoleApp
 {
     class Program
     {

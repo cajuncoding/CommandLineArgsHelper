@@ -7,7 +7,7 @@
     <ProjectGuid>{125B3F5E-117E-4FD8-899C-CB8FD9C1542E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CommandLineArgsHelper</RootNamespace>
+    <RootNamespace>CommandLineArgsHelpers</RootNamespace>
     <AssemblyName>CommandLineArgsHelper</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
