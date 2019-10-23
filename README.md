@@ -14,11 +14,11 @@ Instead, this provides a loosely coupled approach that is more generic and allow
 _The Code has been adapted from the original source located at:_
 https://www.codeproject.com/Articles/3111/C-NET-Command-Line-Arguments-Parser
 
-But it has been updated and simplified with:
+But it has been updated and simplified as follows:
 - Updated with new C# syntax
+- More robust parsing for wider array of parameter syntaxes, keys/values with spaces, etc.
 - Enhanced class wrapper (e.g. exposed read only dictionary for enumeration)
-- More robust parsing for wider array of parameter syntaxes
-- Support for both key/value parameters as well as simple boolean flags (param is defined or not)
+- Support for both key/value parameter pairs, as well as simple boolean flags (param is defined/exists or not)
 - Improved thread safety
 - Eliminated code duplication
 
@@ -41,6 +41,7 @@ Command line with all of the following (mixed syntaxes fully supported):
 ```
 -size=100 /height:'400' /day:"happy birthday" -tgif="Thank God It's Friday" -AmINice "Nice stuff !" 
 --debug -param1 value1 --param2Alone /param3:"Test-:-work" /param4=--value4-- -param5 "--=nice=--"
+/"param6 with spaces"="Spaces are A-OK!"
 ```
 
 Will result in an easily accesible set of values as follows:
@@ -56,6 +57,7 @@ Command Line Arguments:
    9) [param2Alone] == [true]  //Boolean flag if a standalone param key is defined
    10) [param4] == [--value4--] //Complex value with dashes (special characters) in the value
    11) [param5] == [--=nice=--] //Complex value with equal sign (special characters) in the value
+   12) [param6 with spaces] == [Spaces are A-OK!] //Complex Keys or Values that have spaces
 
 ```
 
