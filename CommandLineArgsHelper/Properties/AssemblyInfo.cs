@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("A parsing class to greatly simplify working with command line arguments in loosely coupled and generic way for a .Net application (e.g. console, client, or even web application).")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Brandon Bernard")]
-[assembly: AssemblyProduct("CommandLineArgsHelperLib")]
+[assembly: AssemblyProduct("CommandLineArgsHelper")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
