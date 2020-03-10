@@ -44,7 +44,8 @@ Command line with all of the following (mixed syntaxes fully supported):
 /"param6 with spaces"="Spaces are A-OK!"
 ```
 
-Will result in an easily accesible set of values as follows:
+Will result in an easily accesible set of values as follows...  
+  
 Command Line Arguments:
    1) [size] == [100]
    2) [height] == [400]
