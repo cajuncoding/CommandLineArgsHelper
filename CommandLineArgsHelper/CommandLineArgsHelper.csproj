@@ -2,18 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageProjectUrl>https://github.com/raerae1616/CommandLineArgsHelper</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/cajuncoding/CommandLineArgsHelper</PackageProjectUrl>
     <Copyright>Copyright ©  2018</Copyright>
     <Authors>Brandon Bernard</Authors>
     <Company>Brandon Bernard</Company>
-    <Version>1.0.0.4</Version>
-    <AssemblyVersion>1.0.0.4</AssemblyVersion>
-    <FileVersion>1.0.0.4</FileVersion>
+    <Version>1.0.0.5</Version>
+    <AssemblyVersion>1.0.0.5</AssemblyVersion>
+    <FileVersion>1.0.0.5</FileVersion>
     <PackageTags>command line commandline arg arguments param parameters console consoleapp</PackageTags>
-    <PackageReleaseNotes>Migrate assembly to target .Net Standard 2.0 for greater compatibility with .Net Framework 4.7.2+ and .Net Core 2.0+; No functionality changes.</PackageReleaseNotes>
+    <PackageReleaseNotes>Enhanced (backwards compatible but with Generics now vs object) the AssertArgumentNotNull() custom extension method for re-use in streamlined parameter validation.</PackageReleaseNotes>
     <PackageLicenseUrl>https://raw.githubusercontent.com/raerae1616/CommandLineArgsHelper/master/LICENSE</PackageLicenseUrl>
     <Description>A parsing class to greatly simplify working with command line arguments in loosely coupled and generic way for a .Net application (e.g. console, client, or even web application).</Description>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Product>CommandLineArgsHelper</Product>
+    <PackageId>CommandLineArgsHelper</PackageId>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
