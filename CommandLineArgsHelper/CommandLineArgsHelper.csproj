@@ -2,10 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageProjectUrl>https://github.com/raerae1616/CommandLineArgsHelper</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/cajuncoding/CommandLineArgsHelper</PackageProjectUrl>
     <Copyright>Copyright ©  2018</Copyright>
-    <Authors>Brandon Bernard</Authors>
-    <Company>Brandon Bernard</Company>
+    <Authors>BBernard / CajunCoding</Authors>
+    <Company>BBernard / CajunCoding</Company>
     <Version>1.0.0.4</Version>
     <AssemblyVersion>1.0.0.4</AssemblyVersion>
     <FileVersion>1.0.0.4</FileVersion>
@@ -14,6 +14,7 @@
     <PackageLicenseUrl>https://raw.githubusercontent.com/raerae1616/CommandLineArgsHelper/master/LICENSE</PackageLicenseUrl>
     <Description>A parsing class to greatly simplify working with command line arguments in loosely coupled and generic way for a .Net application (e.g. console, client, or even web application).</Description>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/cajuncoding/CommandLineArgsHelper</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
