@@ -135,12 +135,14 @@ namespace CommandLineArgsHelpers
     public static class CustomExtensionHelpers
     {
 
-        public static void AssertArgumentNotNull(this object argument, string argumentName)
+        public static T AssertArgumentNotNull<T>(this T argument, string argumentName)
         {
             if (argument == null)
             {
                 throw new ArgumentNullException(argumentName);
             }
+
+            return argument;
         }
 
         /// <summary>
