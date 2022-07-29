@@ -23,7 +23,7 @@ namespace CommandLineArgsHelpers
     public class CommandLineArgsHelper
     {
         // Variables
-        private static readonly Regex _splitterRegex = new Regex(@"^-{1,2}|^\/|=|:", RegexOptions.IgnoreCase | RegexOptions.Compiled);
+        private static readonly Regex _splitterRegex = new Regex(@"^-{1,2}|^\/|=|:|\s+""", RegexOptions.IgnoreCase | RegexOptions.Compiled);
         private static readonly Regex _cleanerRegex = new Regex(@"^['""]?(.*?)['""]?$", RegexOptions.IgnoreCase | RegexOptions.Compiled);
 
         //Ensure that the underlying data is read only for thread safety
